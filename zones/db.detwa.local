@@ -1,0 +1,36 @@
+$TTL    604800
+@    IN    SOA    ns1.detwa.local. admin.detwa.local. (
+                  3        ; Serial
+             604800        ; Refresh
+              86400        ; Retry
+            2419200        ; Expire
+             604800 )    ; Negative Cache TTL
+;
+
+; name servers - NS records
+@    IN    NS    ns1
+;@    IN    NS    ns2
+
+; name servers - A records
+ns1.detwa.local.    IN    A    192.168.0.60
+;ns2.srv.qiu.home.    IN    A    192.168.0.12
+
+; 192.168.0.0/24 - A records
+ubnt.detwa.local.    IN    A    192.168.0.1
+syslog.detwa.local.    IN    A    192.168.0.50
+unifi.detwa.local.    IN    A    192.168.0.52
+chef.detwa.local.    IN    A    192.168.0.55
+chefdk.detwa.local.    IN    A    192.168.0.56
+dns.detwa.local.    IN    A    192.168.0.60
+docker.detwa.local.    IN    A    192.168.0.62
+ftp.detwa.local.    IN    A    192.168.0.63
+terraform.detwa.local.    IN    A    192.168.0.64
+miro.detwa.local.    IN    A    192.168.0.112
+locke.detwa.local.    IN    A    192.168.0.152
+hue.detwa.local.    IN    A    192.168.0.154
+laserbeak.detwa.local.   IN   A   192.168.0.187
+valentine.detwa.local.    IN    A    192.168.0.188
+unifiACLite.detwa.local.    IN    A    192.168.0.199
+demosthenes.detwa.local.    IN    A    192.168.0.201
+discoveryone.detwa.local.    IN    A    192.168.0.222
+mazer.detwa.local.    IN    A    192.168.0.253

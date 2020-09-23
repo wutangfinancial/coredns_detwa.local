@@ -1,0 +1,7 @@
+.:53 {
+  log
+  errors
+  forward . 192.168.0.1
+  file zones/db.detwa.local detwa.local
+  file zones/db.192.168.0 0.168.192.in-addr.arpa
+}

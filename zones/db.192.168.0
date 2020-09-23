@@ -1,0 +1,35 @@
+$TTL    604800
+@    IN    SOA    ns1.detwa.local. admin.detwa.local. (
+                  3        ; Serial
+             604800        ; Refresh
+              86400        ; Retry
+            2419200        ; Expire
+             604800 )    ; Negative Cache TTL
+;
+
+; name servers - NS records
+
+@   IN    NS    ns1.detwa.local.
+
+; PTR records
+
+1       IN  PTR	ubnt.detwa.local.
+50      IN  PTR	syslog.detwa.local.
+52      IN  PTR	unifi.detwa.local.
+55      IN  PTR	chef.detwa.local.
+56      IN  PTR	chefdk.detwa.local.
+60      IN  PTR	dns.detwa.local.
+60      IN  PTR ns1.detwa.local.
+62      IN  PTR	docker.detwa.local.
+63      IN  PTR	ftp.detwa.local.
+64      IN  PTR	terraform.detwa.local.
+112     IN  PTR	miro.detwa.local.
+152     IN  PTR	locke.detwa.local.
+154     IN  PTR	hue.detwa.local.
+186     IN  PTR	pingree.detwa.local.
+187     IN  PTR	laserbeak.detwa.local.
+188     IN  PTR	valentine.detwa.local.
+199     IN  PTR	unifiACLite.detwa.local.
+201     IN  PTR	demosthenes.detwa.local.
+222     IN  PTR	discoveryone.detwa.local.
+253     IN  PTR	mazer.detwa.local.
